@@ -1,0 +1,17 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
+int main(){
+    int n, diferencaAbs = 0;
+    int v[n];
+    int i;
+    printf("O programa recebe até 30 posições!");
+    printf("Entrada: ");
+    for( i=0; i<n; i++){
+        scanf("%d ", &v[i]);
+        diferencaAbs = v[i]-v[i-1];
+        printf("%d ", diferencaAbs);
+    }
+    
+    
+}
